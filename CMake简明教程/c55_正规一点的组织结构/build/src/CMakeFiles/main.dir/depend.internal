@@ -4,10 +4,10 @@
 src/CMakeFiles/main.dir/main.cpp.o
  ../include/testFunc.h
  ../include/testFunc1.h
- /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c55_正规一点的组织结构/src/main.cpp
+ /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c55_正规一点的组织结构/src/main.cpp
 src/CMakeFiles/main.dir/testFunc.cpp.o
  ../include/testFunc.h
- /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c55_正规一点的组织结构/src/testFunc.cpp
+ /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c55_正规一点的组织结构/src/testFunc.cpp
 src/CMakeFiles/main.dir/testFunc1.cpp.o
  ../include/testFunc1.h
- /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c55_正规一点的组织结构/src/testFunc1.cpp
+ /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c55_正规一点的组织结构/src/testFunc1.cpp

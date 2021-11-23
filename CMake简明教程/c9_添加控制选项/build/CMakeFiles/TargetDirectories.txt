@@ -1,6 +1,0 @@
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c9_添加控制选项/build/CMakeFiles/rebuild_cache.dir
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c9_添加控制选项/build/CMakeFiles/edit_cache.dir
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c9_添加控制选项/build/src/CMakeFiles/rebuild_cache.dir
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c9_添加控制选项/build/src/CMakeFiles/edit_cache.dir
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c9_添加控制选项/build/src/CMakeFiles/main1.dir
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c9_添加控制选项/build/src/CMakeFiles/main2.dir

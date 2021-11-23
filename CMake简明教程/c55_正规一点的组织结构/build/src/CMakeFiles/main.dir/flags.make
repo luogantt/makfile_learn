@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c55_正规一点的组织结构/src/../include 
+CXX_INCLUDES = -I/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c55_正规一点的组织结构/src/../include 
 

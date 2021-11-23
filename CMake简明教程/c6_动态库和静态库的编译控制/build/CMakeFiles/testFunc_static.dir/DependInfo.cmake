@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c" "/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o"
+  "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c" "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

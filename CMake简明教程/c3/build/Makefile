@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3
+CMAKE_SOURCE_DIR = /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build
+CMAKE_BINARY_DIR = /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/build/CMakeFiles /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/build/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main1
+# Target rules for targets named main
 
 # Build rule for target.
-main1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main1
-.PHONY : main1
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-main1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/build
-.PHONY : main1/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 main.o: main.c.o
 
@@ -149,7 +149,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -158,7 +158,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -167,7 +167,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
 testFunc.o: testFunc.c.o
@@ -176,7 +176,7 @@ testFunc.o: testFunc.c.o
 
 # target to build an object file
 testFunc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/testFunc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testFunc.c.o
 .PHONY : testFunc.c.o
 
 testFunc.i: testFunc.c.i
@@ -185,7 +185,7 @@ testFunc.i: testFunc.c.i
 
 # target to preprocess a source file
 testFunc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/testFunc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testFunc.c.i
 .PHONY : testFunc.c.i
 
 testFunc.s: testFunc.c.s
@@ -194,7 +194,7 @@ testFunc.s: testFunc.c.s
 
 # target to generate assembly for a file
 testFunc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/testFunc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testFunc.c.s
 .PHONY : testFunc.c.s
 
 testFunc1.o: testFunc1.c.o
@@ -203,7 +203,7 @@ testFunc1.o: testFunc1.c.o
 
 # target to build an object file
 testFunc1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/testFunc1.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testFunc1.c.o
 .PHONY : testFunc1.c.o
 
 testFunc1.i: testFunc1.c.i
@@ -212,7 +212,7 @@ testFunc1.i: testFunc1.c.i
 
 # target to preprocess a source file
 testFunc1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/testFunc1.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testFunc1.c.i
 .PHONY : testFunc1.c.i
 
 testFunc1.s: testFunc1.c.s
@@ -221,7 +221,7 @@ testFunc1.s: testFunc1.c.s
 
 # target to generate assembly for a file
 testFunc1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main1.dir/build.make CMakeFiles/main1.dir/testFunc1.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/testFunc1.c.s
 .PHONY : testFunc1.c.s
 
 # Help Target
@@ -232,7 +232,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main1"
+	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

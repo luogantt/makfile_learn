@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/main.c" "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/build/CMakeFiles/main.dir/main.c.o"
-  "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/testFunc.c" "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/build/CMakeFiles/main.dir/testFunc.c.o"
+  "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/main.c" "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/build/CMakeFiles/main.dir/main.c.o"
+  "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/testFunc.c" "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/build/CMakeFiles/main.dir/testFunc.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

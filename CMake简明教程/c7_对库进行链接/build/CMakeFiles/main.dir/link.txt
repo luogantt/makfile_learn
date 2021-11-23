@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/main.dir/src/main.c.o  -o ../bin/main  -Wl,-rpath,/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c7_对库进行链接/testFunc/lib ../testFunc/lib/libtestFunc.so 
+/usr/bin/cc    CMakeFiles/main.dir/src/main.c.o  -o ../bin/main  -Wl,-rpath,/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c7_对库进行链接/testFunc/lib ../testFunc/lib/libtestFunc.so 

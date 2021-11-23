@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func -I/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func1 
+C_INCLUDES = -I/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func -I/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func1 
 

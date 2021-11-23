@@ -63,10 +63,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4
+CMAKE_SOURCE_DIR = /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build
+CMAKE_BINARY_DIR = /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/main.c.o   -c /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/main.c.o   -c /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/main.c
 
 CMakeFiles/main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/main.c > CMakeFiles/main.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/main.c > CMakeFiles/main.dir/main.c.i
 
 CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/main.c -o CMakeFiles/main.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/main.c -o CMakeFiles/main.dir/main.c.s
 
 CMakeFiles/main.dir/test_func/testFunc.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/test_func/testFunc.c.o: ../test_func/testFunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/test_func/testFunc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/test_func/testFunc.c.o   -c /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func/testFunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/test_func/testFunc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/test_func/testFunc.c.o   -c /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func/testFunc.c
 
 CMakeFiles/main.dir/test_func/testFunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/test_func/testFunc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func/testFunc.c > CMakeFiles/main.dir/test_func/testFunc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func/testFunc.c > CMakeFiles/main.dir/test_func/testFunc.c.i
 
 CMakeFiles/main.dir/test_func/testFunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/test_func/testFunc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func/testFunc.c -o CMakeFiles/main.dir/test_func/testFunc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func/testFunc.c -o CMakeFiles/main.dir/test_func/testFunc.c.s
 
 CMakeFiles/main.dir/test_func1/testFunc1.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/test_func1/testFunc1.c.o: ../test_func1/testFunc1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/test_func1/testFunc1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/test_func1/testFunc1.c.o   -c /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func1/testFunc1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/test_func1/testFunc1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/test_func1/testFunc1.c.o   -c /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func1/testFunc1.c
 
 CMakeFiles/main.dir/test_func1/testFunc1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/test_func1/testFunc1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func1/testFunc1.c > CMakeFiles/main.dir/test_func1/testFunc1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func1/testFunc1.c > CMakeFiles/main.dir/test_func1/testFunc1.c.i
 
 CMakeFiles/main.dir/test_func1/testFunc1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/test_func1/testFunc1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/test_func1/testFunc1.c -o CMakeFiles/main.dir/test_func1/testFunc1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/test_func1/testFunc1.c -o CMakeFiles/main.dir/test_func1/testFunc1.c.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -130,7 +130,7 @@ main: CMakeFiles/main.dir/test_func/testFunc.c.o
 main: CMakeFiles/main.dir/test_func1/testFunc1.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4 /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4 /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4 /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4 /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c4/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

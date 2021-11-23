@@ -1,4 +1,4 @@
-# Install script for directory: /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c55_正规一点的组织结构/src
+# Install script for directory: /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c55_正规一点的组织结构/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

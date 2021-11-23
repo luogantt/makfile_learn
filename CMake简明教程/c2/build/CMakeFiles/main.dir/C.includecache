@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/main.c
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/main.c
 stdio.h
 -
 testFunc.h
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/testFunc.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/testFunc.h
 
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/testFunc.c
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/testFunc.c
 stdio.h
 -
 testFunc.h
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/testFunc.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/testFunc.h
 
-/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c2/testFunc.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c2/testFunc.h
 

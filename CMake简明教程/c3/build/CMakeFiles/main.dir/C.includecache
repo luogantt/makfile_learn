@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/main.c
+stdio.h
+-
+testFunc.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc.h
+testFunc1.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc1.h
+
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc.c
+stdio.h
+-
+testFunc.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc.h
+
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc.h
+
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc1.c
+stdio.h
+-
+testFunc1.h
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc1.h
+
+/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c3/testFunc1.h
+
