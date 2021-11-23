@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4
+CMAKE_SOURCE_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/build
+CMAKE_BINARY_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/build/CMakeFiles /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -63,10 +63,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构
+CMAKE_SOURCE_DIR = /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build
+CMAKE_BINARY_DIR = /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/testFunc.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/testFunc.cpp.o: ../src/testFunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/testFunc.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/testFunc.cpp.o -c /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/testFunc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/testFunc.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/testFunc.cpp.o -c /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/testFunc.cpp
 
 CMakeFiles/main.dir/src/testFunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/testFunc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/testFunc.cpp > CMakeFiles/main.dir/src/testFunc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/testFunc.cpp > CMakeFiles/main.dir/src/testFunc.cpp.i
 
 CMakeFiles/main.dir/src/testFunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/testFunc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/testFunc.cpp -o CMakeFiles/main.dir/src/testFunc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/testFunc.cpp -o CMakeFiles/main.dir/src/testFunc.cpp.s
 
 CMakeFiles/main.dir/src/testFunc1.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/testFunc1.cpp.o: ../src/testFunc1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/testFunc1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/testFunc1.cpp.o -c /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/testFunc1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/testFunc1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/testFunc1.cpp.o -c /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/testFunc1.cpp
 
 CMakeFiles/main.dir/src/testFunc1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/testFunc1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/testFunc1.cpp > CMakeFiles/main.dir/src/testFunc1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/testFunc1.cpp > CMakeFiles/main.dir/src/testFunc1.cpp.i
 
 CMakeFiles/main.dir/src/testFunc1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/testFunc1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/src/testFunc1.cpp -o CMakeFiles/main.dir/src/testFunc1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/src/testFunc1.cpp -o CMakeFiles/main.dir/src/testFunc1.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -130,7 +130,7 @@ main_EXTERNAL_OBJECTS =
 ../bin/main: CMakeFiles/main.dir/src/testFunc1.cpp.o
 ../bin/main: CMakeFiles/main.dir/build.make
 ../bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构 /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构 /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构 /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构 /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c1/main.cpp" "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c1/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c1/main.cpp" "/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c1/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

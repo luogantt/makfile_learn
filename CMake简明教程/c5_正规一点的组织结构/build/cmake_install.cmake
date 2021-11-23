@@ -1,4 +1,4 @@
-# Install script for directory: /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构
+# Install script for directory: /home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c5_正规一点的组织结构/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c5_正规一点的组织结构/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

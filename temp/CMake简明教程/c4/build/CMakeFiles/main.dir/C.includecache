@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../test_func/testFunc.h
+
+../test_func1/testFunc1.h
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/main.c
+stdio.h
+-
+testFunc.h
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/testFunc.h
+testFunc1.h
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/testFunc1.h
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/test_func/testFunc.c
+stdio.h
+-
+testFunc.h
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/test_func/testFunc.h
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/test_func/testFunc.h
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/test_func1/testFunc1.c
+stdio.h
+-
+testFunc1.h
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/test_func1/testFunc1.h
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c4/test_func1/testFunc1.h
+

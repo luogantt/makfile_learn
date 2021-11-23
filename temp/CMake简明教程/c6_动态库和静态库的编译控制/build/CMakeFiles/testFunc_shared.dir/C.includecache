@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c
+stdio.h
+-
+testFunc.h
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.h
+
+/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.h
+

@@ -63,10 +63,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3
+CMAKE_SOURCE_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build
+CMAKE_BINARY_DIR = /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main1.dir/depend.make
@@ -79,42 +79,42 @@ include CMakeFiles/main1.dir/flags.make
 
 CMakeFiles/main1.dir/main.c.o: CMakeFiles/main1.dir/flags.make
 CMakeFiles/main1.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main1.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main1.dir/main.c.o   -c /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main1.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main1.dir/main.c.o   -c /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/main.c
 
 CMakeFiles/main1.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main1.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/main.c > CMakeFiles/main1.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/main.c > CMakeFiles/main1.dir/main.c.i
 
 CMakeFiles/main1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main1.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/main.c -o CMakeFiles/main1.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/main.c -o CMakeFiles/main1.dir/main.c.s
 
 CMakeFiles/main1.dir/testFunc.c.o: CMakeFiles/main1.dir/flags.make
 CMakeFiles/main1.dir/testFunc.c.o: ../testFunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main1.dir/testFunc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main1.dir/testFunc.c.o   -c /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/testFunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main1.dir/testFunc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main1.dir/testFunc.c.o   -c /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/testFunc.c
 
 CMakeFiles/main1.dir/testFunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main1.dir/testFunc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/testFunc.c > CMakeFiles/main1.dir/testFunc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/testFunc.c > CMakeFiles/main1.dir/testFunc.c.i
 
 CMakeFiles/main1.dir/testFunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main1.dir/testFunc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/testFunc.c -o CMakeFiles/main1.dir/testFunc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/testFunc.c -o CMakeFiles/main1.dir/testFunc.c.s
 
 CMakeFiles/main1.dir/testFunc1.c.o: CMakeFiles/main1.dir/flags.make
 CMakeFiles/main1.dir/testFunc1.c.o: ../testFunc1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main1.dir/testFunc1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main1.dir/testFunc1.c.o   -c /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/testFunc1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main1.dir/testFunc1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main1.dir/testFunc1.c.o   -c /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/testFunc1.c
 
 CMakeFiles/main1.dir/testFunc1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main1.dir/testFunc1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/testFunc1.c > CMakeFiles/main1.dir/testFunc1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/testFunc1.c > CMakeFiles/main1.dir/testFunc1.c.i
 
 CMakeFiles/main1.dir/testFunc1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main1.dir/testFunc1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/testFunc1.c -o CMakeFiles/main1.dir/testFunc1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/testFunc1.c -o CMakeFiles/main1.dir/testFunc1.c.s
 
 # Object files for target main1
 main1_OBJECTS = \
@@ -130,7 +130,7 @@ main1: CMakeFiles/main1.dir/testFunc.c.o
 main1: CMakeFiles/main1.dir/testFunc1.c.o
 main1: CMakeFiles/main1.dir/build.make
 main1: CMakeFiles/main1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/main1.dir/clean:
 .PHONY : CMakeFiles/main1.dir/clean
 
 CMakeFiles/main1.dir/depend:
-	cd /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3 /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3 /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build /home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c3/build/CMakeFiles/main1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3 /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3 /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build /home/ledi/slam_md40/temp/makfile_learn/CMake简明教程/c3/build/CMakeFiles/main1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main1.dir/depend
 

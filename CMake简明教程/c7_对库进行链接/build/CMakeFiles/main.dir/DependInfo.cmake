@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c7_对库进行链接/src/main.c" "/home/ledi/桌面/slam_project/cmake_learn/CMake简明教程/c7_对库进行链接/build/CMakeFiles/main.dir/src/main.c.o"
+  "/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c7_对库进行链接/src/main.c" "/home/ledi/slam_md40/learn_orbslam/CMake简明教程/c7_对库进行链接/build/CMakeFiles/main.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
