@@ -1,0 +1,3 @@
+/home/lg/cuda_project/makfile_learn/CUDA-Programming-master/src/02-thread-organization/build/CMakeFiles/rebuild_cache.dir
+/home/lg/cuda_project/makfile_learn/CUDA-Programming-master/src/02-thread-organization/build/CMakeFiles/Hello.dir
+/home/lg/cuda_project/makfile_learn/CUDA-Programming-master/src/02-thread-organization/build/CMakeFiles/edit_cache.dir

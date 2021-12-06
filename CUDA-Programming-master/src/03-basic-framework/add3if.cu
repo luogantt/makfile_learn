@@ -1,5 +1,7 @@
 #include <math.h>
 #include <stdio.h>
+#include <iostream>
+using namespace std;
 
 const double EPSILON = 1.0e-15;
 const double a = 1.23;
@@ -10,7 +12,7 @@ void check(const double *z, const int N);
 
 int main(void)
 {
-    const int N = 100000001;
+    const int N = 1001;
     const int M = sizeof(double) * N;
     double *h_x = (double*) malloc(M);
     double *h_y = (double*) malloc(M);
@@ -35,7 +37,11 @@ int main(void)
 
     cudaMemcpy(h_z, d_z, M, cudaMemcpyDeviceToHost);
     check(h_z, N);
-
+    for (int n = 0; n < N; ++n)
+    {
+    cout<<h_z[n]<<endl;
+    } 
+    
     free(h_x);
     free(h_y);
     free(h_z);

@@ -1,5 +1,8 @@
 #include <math.h>
 #include <stdio.h>
+#include <iostream>
+
+using namespace std;
 
 const double EPSILON = 1.0e-15;
 const double a = 1.23;
@@ -10,7 +13,7 @@ void check(const double *z, const int N);
 
 int main(void)
 {
-    const int N = 100000000;
+    const int N = 100;
     const int M = sizeof(double) * N;
     double *h_x = (double*) malloc(M);
     double *h_y = (double*) malloc(M);
@@ -33,8 +36,18 @@ int main(void)
     const int grid_size = N / block_size;
     add<<<grid_size, block_size>>>(d_x, d_y, d_z);
 
+
+
     cudaMemcpy(h_z, d_z, M, cudaMemcpyDeviceToHost);
     check(h_z, N);
+
+    for (int n = 0; n < N; ++n)
+    {
+    cout<<h_z[n]<<endl;
+    }
+
+
+
 
     free(h_x);
     free(h_y);
