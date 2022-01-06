@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c7_对库进行链接/testFunc/inc 
+C_INCLUDES = -I/home/ledi/ccc/makfile_learn/CMake简明教程/c7_对库进行链接/testFunc/inc 
 

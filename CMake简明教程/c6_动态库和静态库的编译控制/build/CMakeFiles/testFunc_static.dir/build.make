@@ -63,10 +63,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制
+CMAKE_SOURCE_DIR = /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build
+CMAKE_BINARY_DIR = /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testFunc_static.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/testFunc_static.dir/flags.make
 
 CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o: CMakeFiles/testFunc_static.dir/flags.make
 CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o: ../testFunc/testFunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o   -c /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o   -c /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c
 
 CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c > CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c > CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.i
 
 CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c -o CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/testFunc/testFunc.c -o CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.s
 
 # Object files for target testFunc_static
 testFunc_static_OBJECTS = \
@@ -100,7 +100,7 @@ testFunc_static_EXTERNAL_OBJECTS =
 ../lib/libtestFunc.a: CMakeFiles/testFunc_static.dir/testFunc/testFunc.c.o
 ../lib/libtestFunc.a: CMakeFiles/testFunc_static.dir/build.make
 ../lib/libtestFunc.a: CMakeFiles/testFunc_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../lib/libtestFunc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../lib/libtestFunc.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/testFunc_static.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testFunc_static.dir/link.txt --verbose=$(VERBOSE)
 
@@ -114,6 +114,6 @@ CMakeFiles/testFunc_static.dir/clean:
 .PHONY : CMakeFiles/testFunc_static.dir/clean
 
 CMakeFiles/testFunc_static.dir/depend:
-	cd /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制 /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制 /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制 /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制 /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testFunc_static.dir/depend
 

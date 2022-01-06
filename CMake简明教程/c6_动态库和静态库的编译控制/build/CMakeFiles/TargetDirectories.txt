@@ -1,4 +1,4 @@
-/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/rebuild_cache.dir
-/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/edit_cache.dir
-/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_shared.dir
-/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_static.dir
+/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/rebuild_cache.dir
+/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/edit_cache.dir
+/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_shared.dir
+/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/CMakeFiles/testFunc_static.dir

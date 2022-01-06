@@ -1,4 +1,4 @@
-# Install script for directory: /home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制
+# Install script for directory: /home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ledi/ccc/makfile_learn/CMake简明教程/c6_动态库和静态库的编译控制/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

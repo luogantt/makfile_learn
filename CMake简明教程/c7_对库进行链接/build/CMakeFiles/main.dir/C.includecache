@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../testFunc/inc/testFunc.h
-
-/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c7_对库进行链接/src/main.c
+/home/ledi/ccc/makfile_learn/CMake简明教程/c7_对库进行链接/src/main.c
 stdio.h
 -
 testFunc.h
-/home/ledi/slam_md40/learn_orbslam/makfile_learn/CMake简明教程/c7_对库进行链接/src/testFunc.h
+/home/ledi/ccc/makfile_learn/CMake简明教程/c7_对库进行链接/src/testFunc.h
 
