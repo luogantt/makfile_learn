@@ -1,0 +1,15 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#cmakedefine BUILD_TIME_YEAR @BUILD_TIME_YEAR@
+#cmakedefine BUILD_TIME_MONTH @BUILD_TIME_MONTH@
+#cmakedefine BUILD_TIME_DAY @BUILD_TIME_DAY@
+#cmakedefine BUILD_AUTHOR "@BUILD_AUTHOR@"
+
+#cmakedefine01 MEM_CHECKER
+
+#cmakedefine DEBUG_LEVEL @DEBUG_LEVEL@
+
+
+
+#endif
