@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c13_添加库文件/tutorial.cxx
+cmath
+-
+iostream
+-
+string
+-
+TutorialConfig.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c13_添加库文件/TutorialConfig.h
+MathFunctions.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c13_添加库文件/MathFunctions.h
+
+TutorialConfig.h
+
