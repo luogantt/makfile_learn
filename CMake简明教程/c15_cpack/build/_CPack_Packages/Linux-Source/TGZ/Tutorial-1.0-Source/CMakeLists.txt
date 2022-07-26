@@ -38,8 +38,6 @@ install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
 
 
 include(InstallRequiredSystemLibraries)
-
-## 这里的几个set 语句可以不用，是几句说明的语句，关键的是　include(CPack)这一句
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
 set(CPACK_PACKAGE_VERSION_MAJOR "${Tutorial_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${Tutorial_VERSION_MINOR}")

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/MathFunctions/MathFunctions.h
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/MathFunctions/mysqrt.cxx
+iostream
+-
+MathFunctions.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/MathFunctions/MathFunctions.h
+Table.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/MathFunctions/Table.h
+
+MathFunctions/Table.h
+

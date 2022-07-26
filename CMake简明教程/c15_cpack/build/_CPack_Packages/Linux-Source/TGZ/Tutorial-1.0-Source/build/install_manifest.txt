@@ -1,0 +1,4 @@
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/bin/Tutorial
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/include/TutorialConfig.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/lib/libMathFunctions.a
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c15_cpack/build/_CPack_Packages/Linux/ZIP/Tutorial-1.0-Linux/include/MathFunctions.h
