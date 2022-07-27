@@ -68,24 +68,13 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example
+CMAKE_SOURCE_DIR = /home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/build
+CMAKE_BINARY_DIR = /home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -98,11 +87,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/build/CMakeFiles /home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build/CMakeFiles /home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named message
+
+# Build rule for target.
+message: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 message
+.PHONY : message
+
+# fast build rule for target.
+message/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/message.dir/build.make CMakeFiles/message.dir/build
+.PHONY : message/fast
+
+#=============================================================================
 # Target rules for targets named hello-world
 
 # Build rule for target.
@@ -149,7 +162,7 @@ Message.o: Message.cpp.o
 
 # target to build an object file
 Message.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/Message.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/message.dir/build.make CMakeFiles/message.dir/Message.cpp.o
 .PHONY : Message.cpp.o
 
 Message.i: Message.cpp.i
@@ -158,7 +171,7 @@ Message.i: Message.cpp.i
 
 # target to preprocess a source file
 Message.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/Message.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/message.dir/build.make CMakeFiles/message.dir/Message.cpp.i
 .PHONY : Message.cpp.i
 
 Message.s: Message.cpp.s
@@ -167,7 +180,7 @@ Message.s: Message.cpp.s
 
 # target to generate assembly for a file
 Message.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello-world.dir/build.make CMakeFiles/hello-world.dir/Message.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/message.dir/build.make CMakeFiles/message.dir/Message.cpp.s
 .PHONY : Message.cpp.s
 
 hello-world.o: hello-world.cpp.o
@@ -206,6 +219,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hello-world"
+	@echo "... message"
 	@echo "... Message.o"
 	@echo "... Message.i"
 	@echo "... Message.s"

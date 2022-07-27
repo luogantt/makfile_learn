@@ -5,13 +5,13 @@ cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 project(recipe-04 LANGUAGES CXX)
 
 # introduce a toggle for using a library
-set(USE_LIBRARY OFF)
+set(USE_LIBRARY ON)
 
 message(STATUS "Compile sources into a library? ${USE_LIBRARY}")
 
 # BUILD_SHARED_LIBS is a global flag offered by CMake
 # to toggle the behavior of add_library
-set(BUILD_SHARED_LIBS OFF)
+set(BUILD_SHARED_LIBS ON)
 
 # list sources
 list(APPEND _sources Message.hpp Message.cpp)

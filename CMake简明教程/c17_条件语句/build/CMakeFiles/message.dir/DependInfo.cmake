@@ -4,9 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/hello-world.cpp" "/home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build/CMakeFiles/hello-world.dir/hello-world.cpp.o"
+  "/home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/Message.cpp" "/home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build/CMakeFiles/message.dir/Message.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "message_EXPORTS"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -14,7 +19,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ledi/图片/３/makfile_learn/CMake简明教程/c17_条件语句/build/CMakeFiles/message.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
