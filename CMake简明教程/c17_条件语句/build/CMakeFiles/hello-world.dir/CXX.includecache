@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/Message.cpp
+Message.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/Message.hpp
+iostream
+-
+string
+-
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/Message.hpp
+iosfwd
+-
+string
+-
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/hello-world.cpp
+Message.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-04/cxx-example/Message.hpp
+cstdlib
+-
+iostream
+-
+
