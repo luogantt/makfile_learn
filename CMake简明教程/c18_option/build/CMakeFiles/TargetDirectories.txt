@@ -1,0 +1,4 @@
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/build/CMakeFiles/edit_cache.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/build/CMakeFiles/rebuild_cache.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/build/CMakeFiles/message.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/build/CMakeFiles/hello-world.dir

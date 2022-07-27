@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/Message.hpp
+iosfwd
+-
+string
+-
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/hello-world.cpp
+Message.hpp
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/Message.hpp
+cstdlib
+-
+iostream
+-
+

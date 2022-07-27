@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/hello-world.dir/hello-world.cpp.o  -o hello-world  -Wl,-rpath,/home/ledi/图片/３/makfile_learn/CMake简明教程/c18_option/build libmessage.so 
