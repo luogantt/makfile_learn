@@ -1,3 +1,0 @@
-/home/ledi/图片/３/makfile_learn/CMake简明教程/example/c1/build/CMakeFiles/rebuild_cache.dir
-/home/ledi/图片/３/makfile_learn/CMake简明教程/example/c1/build/CMakeFiles/main.dir
-/home/ledi/图片/３/makfile_learn/CMake简明教程/example/c1/build/CMakeFiles/edit_cache.dir
