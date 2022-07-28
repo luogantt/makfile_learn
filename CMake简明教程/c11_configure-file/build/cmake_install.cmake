@@ -1,4 +1,4 @@
-# Install script for directory: /home/ledi/图片/2/cmake-configure-file-master
+# Install script for directory: /home/ledi/图片/３/makfile_learn/CMake简明教程/c11_configure-file
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ledi/图片/2/cmake-configure-file-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ledi/图片/３/makfile_learn/CMake简明教程/c11_configure-file/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

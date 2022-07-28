@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/cm-config-file.dir/main.c.o  -o cm-config-file 

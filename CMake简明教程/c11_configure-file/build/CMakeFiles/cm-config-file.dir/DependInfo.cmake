@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ledi/图片/2/cmake-configure-file-master/main.c" "/home/ledi/图片/2/cmake-configure-file-master/build/CMakeFiles/cm-config-file.dir/main.c.o"
+  "/home/ledi/图片/３/makfile_learn/CMake简明教程/c11_configure-file/main.c" "/home/ledi/图片/３/makfile_learn/CMake简明教程/c11_configure-file/build/CMakeFiles/cm-config-file.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

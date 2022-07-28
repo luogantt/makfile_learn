@@ -13,13 +13,13 @@ include(CMakeDependentOption)
 
 # second option depends on the value of the first
 cmake_dependent_option(
-  MAKE_STATIC_LIBRARY "Compile sources into a static library" OFF
+	MAKE_STATIC_LIBRARY "Compile sources into a static library" OFF
   "USE_LIBRARY" ON
   )
 
 # third option depends on the value of the first
 cmake_dependent_option(
-  MAKE_SHARED_LIBRARY "Compile sources into a shared library" ON
+	MAKE_SHARED_LIBRARY "Compile sources into a shared library" ON
   "USE_LIBRARY" ON
   )
 

@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ledi/图片/2/cmake-configure-file-master/build 
+C_INCLUDES = -I/home/ledi/图片/３/makfile_learn/CMake简明教程/c11_configure-file/build 
 

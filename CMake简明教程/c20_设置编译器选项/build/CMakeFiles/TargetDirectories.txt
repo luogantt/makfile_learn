@@ -1,0 +1,3 @@
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c20_设置编译器选项/build/CMakeFiles/rebuild_cache.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c20_设置编译器选项/build/CMakeFiles/main.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c20_设置编译器选项/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/C19_指定编译器/c11_configure-file/main.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+config.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/C19_指定编译器/c11_configure-file/config.h
+
+config.h
+
