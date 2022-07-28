@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/arch-dependent.dir/arch-dependent.cpp.o  -o arch-dependent 
