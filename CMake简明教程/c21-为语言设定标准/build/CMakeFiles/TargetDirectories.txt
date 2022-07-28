@@ -1,0 +1,4 @@
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/build/CMakeFiles/rebuild_cache.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/build/CMakeFiles/animals.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/build/CMakeFiles/edit_cache.dir
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/build/CMakeFiles/animal-farm.dir

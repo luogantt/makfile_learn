@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/animal-farm.dir/animal-farm.cpp.o  -o animal-farm  -Wl,-rpath,/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/build libanimals.so 

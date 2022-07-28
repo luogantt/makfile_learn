@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Animal.cpp
+Animal.hpp
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Animal.hpp
+string
+-
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Animal.hpp
+string
+-
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Cat.cpp
+Cat.hpp
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Cat.hpp
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Cat.hpp
+Animal.hpp
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Animal.hpp
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Dog.cpp
+Dog.hpp
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Dog.hpp
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Dog.hpp
+Animal.hpp
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c21-为语言设定标准/Animal.hpp
+

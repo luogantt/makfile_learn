@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_circle.cpp
+geometry_circle.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_circle.hpp
+cmath
+-
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_circle.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_polygon.cpp
+geometry_polygon.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_polygon.hpp
+cmath
+-
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_polygon.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_rhombus.cpp
+geometry_rhombus.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_rhombus.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_rhombus.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_square.cpp
+geometry_square.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_square.hpp
+cmath
+-
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_square.hpp
+

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/compute-areas.cpp
+geometry_circle.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_circle.hpp
+geometry_polygon.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_polygon.hpp
+geometry_rhombus.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_rhombus.hpp
+geometry_square.hpp
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_square.hpp
+cstdlib
+-
+iostream
+-
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_circle.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_polygon.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_rhombus.hpp
+
+/home/ledi/图片/３/cmake-cookbook/chapter-01/recipe-08/cxx-example/geometry_square.hpp
+
