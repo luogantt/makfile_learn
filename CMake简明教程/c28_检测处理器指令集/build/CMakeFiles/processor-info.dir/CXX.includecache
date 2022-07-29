@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c28_检测处理器指令集/processor-info.cpp
+config.h
+/home/ledi/图片/３/makfile_learn/CMake简明教程/c28_检测处理器指令集/config.h
+cstdlib
+-
+iostream
+-
+
+config.h
+
