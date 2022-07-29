@@ -1,0 +1,18 @@
+Performing C++ SOURCE FILE Test _xhost_works failed with the following output:
+Change Dir: /home/ledi/图片/３/makfile_learn/CMake简明教程/c29_为Eigen库使能向量化/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1cb6/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1cb6.dir/build.make CMakeFiles/cmTC_d1cb6.dir/build
+make[1]: Entering directory '/home/ledi/图片/３/makfile_learn/CMake简明教程/c29_为Eigen库使能向量化/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1cb6.dir/src.cxx.o
+/usr/bin/c++    -D_xhost_works   -xHost -o CMakeFiles/cmTC_d1cb6.dir/src.cxx.o -c /home/ledi/图片/３/makfile_learn/CMake简明教程/c29_为Eigen库使能向量化/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: language Host not recognized
+c++: error: language Host not recognized
+CMakeFiles/cmTC_d1cb6.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_d1cb6.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d1cb6.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ledi/图片/３/makfile_learn/CMake简明教程/c29_为Eigen库使能向量化/build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_d1cb6/fast' failed
+make: *** [cmTC_d1cb6/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
