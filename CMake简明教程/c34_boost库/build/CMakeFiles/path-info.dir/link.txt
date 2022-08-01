@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/path-info.dir/path-info.cpp.o  -o path-info  /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so 
