@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/linear-algebra.dir/linear-algebra.cpp.o  -o linear-algebra  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so -lpthread 

@@ -1,0 +1,86 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a275c/fast && /usr/bin/make  -f CMakeFiles/cmTC_a275c.dir/build.make CMakeFiles/cmTC_a275c.dir/build
+make[1]: 进入目录“/home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a275c.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=sgemm_   -std=c++11 -o CMakeFiles/cmTC_a275c.dir/CheckFunctionExists.cxx.o -c /home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_a275c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a275c.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_a275c.dir/CheckFunctionExists.cxx.o  -o cmTC_a275c 
+CMakeFiles/cmTC_a275c.dir/CheckFunctionExists.cxx.o：在函数‘main’中：
+CheckFunctionExists.cxx:(.text+0x10)：对‘sgemm_’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a275c.dir/build.make:106: recipe for target 'cmTC_a275c' failed
+make[1]: *** [cmTC_a275c] Error 1
+make[1]: 离开目录“/home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp”
+Makefile:141: recipe for target 'cmTC_a275c/fast' failed
+make: *** [cmTC_a275c/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc6f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_cc6f3.dir/build.make CMakeFiles/cmTC_cc6f3.dir/build
+make[1]: 进入目录“/home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_cc6f3.dir/src.cxx.o
+/usr/bin/c++    -DCMAKE_HAVE_LIBC_PTHREAD   -std=c++11 -o CMakeFiles/cmTC_cc6f3.dir/src.cxx.o -c /home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc6f3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc6f3.dir/link.txt --verbose=1
+/usr/bin/c++   -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_cc6f3.dir/src.cxx.o  -o cmTC_cc6f3 
+CMakeFiles/cmTC_cc6f3.dir/src.cxx.o：在函数‘main’中：
+src.cxx:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.cxx:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.cxx:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.cxx:(.text+0x67)：对‘pthread_join’未定义的引用
+src.cxx:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cc6f3.dir/build.make:106: recipe for target 'cmTC_cc6f3' failed
+make[1]: *** [cmTC_cc6f3] Error 1
+make[1]: 离开目录“/home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp”
+Makefile:141: recipe for target 'cmTC_cc6f3/fast' failed
+make: *** [cmTC_cc6f3/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88b29/fast && /usr/bin/make  -f CMakeFiles/cmTC_88b29.dir/build.make CMakeFiles/cmTC_88b29.dir/build
+make[1]: 进入目录“/home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_88b29.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c++11 -o CMakeFiles/cmTC_88b29.dir/CheckFunctionExists.cxx.o -c /home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_88b29
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88b29.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_88b29.dir/CheckFunctionExists.cxx.o  -o cmTC_88b29  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_88b29.dir/build.make:106: recipe for target 'cmTC_88b29' failed
+make[1]: *** [cmTC_88b29] Error 1
+make[1]: 离开目录“/home/ledi/图片/３/makfile_learn/CMake简明教程/c33_检测Eigen库/build/CMakeFiles/CMakeTmp”
+Makefile:141: recipe for target 'cmTC_88b29/fast' failed
+make: *** [cmTC_88b29/fast] Error 2
+
+
+
