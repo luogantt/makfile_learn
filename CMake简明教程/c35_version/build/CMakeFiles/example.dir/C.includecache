@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ledi/图片/３/cmake-cookbook/chapter-06/recipe-04/c-example/example.c
+version.h
+/home/ledi/图片/３/cmake-cookbook/chapter-06/recipe-04/c-example/version.h
+stdio.h
+-
+
+generated/version.h
+
