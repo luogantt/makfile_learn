@@ -1,5 +1,8 @@
 url=https://blog.csdn.net/qq_41839588/article/details/132267196?ops_request_misc=%257B%2522request%255Fid%2522%253A%25220F7587A1-9436-4BFC-8394-8180C6E92AB8%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=0F7587A1-9436-4BFC-8394-8180C6E92AB8&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-132267196-null-null.142^v100^pc_search_result_base4&utm_term=makefile&spm=1018.2226.3001.4187
 
+
+
+
 <div class="toc"> 
  <h4><a name="t0"></a>文章目录</h4> 
  <ul><li><a href="#_4" rel="nofollow" target="_self">前言</a></li><li><a href="#Makefile__11" rel="nofollow" target="_self">一、Makefile 介绍</a></li><li><a href="#_19" rel="nofollow" target="_self">二、示例源码</a></li><li><ul><li><a href="#1helloc_21" rel="nofollow" target="_self">1、hello.c</a></li><li><a href="#2addc_38" rel="nofollow" target="_self">2、add.c</a></li><li><a href="#3subc_45" rel="nofollow" target="_self">3、sub.c</a></li><li><a href="#4mulc_52" rel="nofollow" target="_self">4、mul.c</a></li><li><a href="#5divc_59" rel="nofollow" target="_self">5、div.c</a></li><li><a href="#6headh_66" rel="nofollow" target="_self">6、head.h</a></li></ul> 
